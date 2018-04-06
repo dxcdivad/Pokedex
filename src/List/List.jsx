@@ -24,15 +24,18 @@ render() {
       <hr />
       <button 
       className="btn btn-primary"
+      id="searchBtn"
       onClick={this.handleGetPokemon}
       >Search Pokemon!
     </button>
-    <div className="list-group">
+    <div className="list-group" style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gridGap: '10px', gridAutoRows: 'minMax(100px, auto)'}}>
     {data.map((list, i) => (
         <div className="list-group-item"
+        
             key={i}>
           <div className="row">
-            <div>
+            <div
+              id="searchResults">
               { data && data[i].name }
             </div>
     </div>

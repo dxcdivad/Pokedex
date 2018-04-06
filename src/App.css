@@ -1,28 +1,33 @@
+html {background-color: rgb(218, 27, 27)}
+
 .App {
   text-align: center;
+  background-color: rgb(218, 27, 27);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+h2, h4 {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.container {
+  width: 60%;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
 }
 
-.App-intro {
-  font-size: large;
+.list-group-item {
+  margin: 10px;
+  box-shadow: 7px 7px 5px rgb(46, 46, 46);
+  background-color: rgb(243, 243, 243);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#searchBtn {
+  margin:10px;
 }
+
+#searchResults {
+  text-align: left;
+  margin-left: 60px;
+}
+
