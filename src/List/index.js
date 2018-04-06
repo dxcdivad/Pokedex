@@ -1,10 +1,12 @@
 import { connect } from 'react-redux';
 import List from './List';
 
-function mapStateToProps(store) {
-  return {
-    data: store.list.data
+
+function mapStoreToProps(store) {
+  return{
+  data: store.list.data,
+  image: store.list.image
   }
 }
 
-export default connect(mapStateToProps)(List);
+export default connect(mapStoreToProps)(List);

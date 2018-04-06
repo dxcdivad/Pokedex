@@ -13,7 +13,14 @@ export default function listReducer (state=defaultState, action) {
       data: payload.data.results
       }
     }
-    
+
+    case 'GET_IMAGE_FULFILLED': {
+      return {
+        ...state,
+        image: payload.data.sprites
+      }
+    }
+
     default: {
       return state
     }

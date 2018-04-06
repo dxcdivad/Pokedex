@@ -31,3 +31,8 @@ h2, h4 {
   margin-left: 60px;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
