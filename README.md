@@ -1,15 +1,15 @@
-#Pokedex
+# Pokedex
 
 This is a simple front-end code challenge created to serve two purposes:
 1. Show off your skills,
 2. Give us a better understanding of your skills.
 
-###Instructions
+### Instructions
 • Consume the public Pokedex API to retrieve a list of Pokemons.
 • Display a grid of Pokemon.
 • Allow selecting a Pokemon and show its individual data
 
-###Optional
+### Optional
 • Use a state management library (Redux, MobX, Unstated).
 • Add pagination or infinite scrolling.
 • Implement animated transitions.
