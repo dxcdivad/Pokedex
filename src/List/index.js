@@ -3,7 +3,7 @@ import List from './List';
 
 function mapStateToProps(store) {
   return {
-
+    data: store.list.data
   }
 }
 
